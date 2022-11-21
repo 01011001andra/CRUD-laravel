@@ -28,10 +28,10 @@
             <ul class="menu menu-horizontal">
               <!-- Navbar menu content here -->
               <li>
-                <a href="http://127.0.0.1:8000">Data Barang</a>
+                <a href="/">Data Barang</a>
               </li>
               <li>
-                <a href="http://127.0.0.1:8000/request">Form Request Barang</a>
+                <a href="/request">Form Request Barang</a>
               </li>
             </ul>
           </div>
@@ -93,10 +93,10 @@
         </div>
         <!-- Sidebar content here -->
         <li>
-          <a href="http://127.0.0.1:8000">Data Barang</a>
+          <a href="/">Data Barang</a>
         </li>
         <li>
-          <a href="http://127.0.0.1:8000/request">Form Request Barang</a>
+          <a href="/request">Form Request Barang</a>
 
         </li>
       </ul>
