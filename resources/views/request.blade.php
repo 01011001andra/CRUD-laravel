@@ -7,6 +7,7 @@
   <script>
   </script>
   @vite('resources/css/app.css')
+  @laravelPWA
 </head>
 
 <body>
