@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/databarang', function () {
     return view('databarang');
+});
+Route::get('/request', function () {
+    return view('request');
 });
