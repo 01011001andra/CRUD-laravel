@@ -4,8 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script>
-  </script>
   @vite('resources/css/app.css')
   @laravelPWA
 </head>
@@ -103,6 +101,7 @@
       </ul>
     </div>
   </div>
+
 </body>
 
 </html>
