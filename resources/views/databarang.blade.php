@@ -27,7 +27,7 @@
                     <div class="flex-1 px-2 mx-2 select-none font-bold">Yandra Muslim 💕</div>
                     <div class="flex-none hidden lg:block">
                         <ul class="menu menu-horizontal">
-                            
+
                             <!-- Navbar menu content here -->
                             <li>
                                 <a href="/">Data Barang</a>
@@ -64,8 +64,8 @@
                                     <td>001</td>
                                     <td>Red</td>
                                     <td>Cy Ganderton</td>
+                                    <td>Quality Control Specialist</td>
                                     <td>
-                                        <td>Quality Control Specialist</td>
                                         <div class="flex gap-3">
                                             <div class="flex justify-end">
                                                 <!-- The button to open modal -->
