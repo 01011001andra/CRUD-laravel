@@ -27,7 +27,7 @@
                     <div class="flex-1 px-2 mx-2 select-none font-bold">Yandra Muslim 💕</div>
                     <div class="flex-none hidden lg:block">
                         <ul class="menu menu-horizontal">
-
+                            
                             <!-- Navbar menu content here -->
                             <li>
                                 <a href="/">Data Barang</a>
@@ -62,74 +62,10 @@
                                     <td></td>
                                     <td>1</td>
                                     <td>001</td>
-                                    <td>Blue</td>
+                                    <td>Red</td>
                                     <td>Cy Ganderton</td>
-                                    <td>Quality Control Specialist</td>
                                     <td>
-                                        <div class="flex gap-3">
-                                            <div class="flex justify-end">
-                                                <!-- The button to open modal -->
-                                                <a href="#my-modal-3" class="btn btn-primary text-white">EDIT</a>
-                                                <!-- Put this part before </body> tag -->
-                                                <div class="modal" id="my-modal-3">
-                                                    <div class="modal-box rounded-md">
-                                                        <form class="flex flex-col gap-1" action="/">
-                                                            <h1 class="text-center text-xl font-medium">Form Edit Data</h1>
-                                                            <div class="flex flex-col gap-2">
-                                                                <label for="nama">No: </label>
-                                                                <input type="text" class="bg-white px-3 h-10 rounded-md text-black" placeholder="Masukkan Nomor...">
-                                                            </div>
-                                                            <div class="flex flex-col gap-3">
-                                                                <label for="nama">Kode: </label>
-                                                                <input type="text" class="bg-white px-3 h-10 rounded-md text-black" placeholder="Masukkan Kode ...">
-                                                            </div>
-                                                            <div class="flex flex-col gap-3">
-                                                                <label for="nama">Nama Barang: </label>
-                                                                <input type="text" class="bg-white px-3 h-10 rounded-md text-black" placeholder="Masukkan Nama Barang ...">
-                                                            </div>
-                                                            <div class="flex flex-col gap-3">
-                                                                <label for="nama">Jenis: </label>
-                                                                <input type="text" class="bg-white px-3 h-10 rounded-md text-black" placeholder="Masukkan Jenis ...">
-                                                            </div>
-                                                            <div class="flex flex-col gap-3">
-                                                                <label for="nama">Stock: </label>
-                                                                <input type="text" class="bg-white px-3 h-10 rounded-md text-black" placeholder="Masukkan Stock ...">
-                                                            </div>
-                                                            <div class="modal-action">
-                                                                <button>
-                                                                    <a href="#" class="btn bg-red-600 text-white">CANCEL</a>
-                                                                </button>
-                                                                <button class="btn btn-primary">SUBMIT</button>
-                                                            </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <label for="my-modal" class="btn bg-red-500 text-white">Delete</label>
-                                            <!-- Put this part before </body> tag -->
-                                            <input type="checkbox" id="my-modal" class="modal-toggle" />
-                                            <div class="modal">
-                                                <div class="modal-box">
-                                                    <h3 class="font-bold text-lg">Perhatikan!</h3>
-                                                    <p class="py-4">Anda Yakin Ingin Menghapus?</p>
-                                                    <div class="modal-action">
-                                                        <label for="my-modal" class="btn bg-red-500 text-white">CANCEL</label>
-                                                        <label for="my-modal" class="btn bg-green-500 text-white">YES</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <!-- row 1 -->
-                                <tr>
-                                    <td></td>
-                                    <td>2</td>
-                                    <td>002</td>
-                                    <td>Blue</td>
-                                    <td>Cy Ganderton</td>
-                                    <td>Quality Control Specialist</td>
-                                    <td>
+                                        <td>Quality Control Specialist</td>
                                         <div class="flex gap-3">
                                             <div class="flex justify-end">
                                                 <!-- The button to open modal -->

@@ -90,7 +90,7 @@
           <h1 class="flex-1 select-none font-bold">Yandra Muslim 💕</h1>
 
         </div>
-        <!-- Sidebar content here -->
+        <!-- Sidebar content here . -->
         <li>
           <a href="/">Data Barang</a>
         </li>
