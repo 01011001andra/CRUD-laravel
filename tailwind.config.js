@@ -8,7 +8,7 @@ module.exports = {
     theme: {
         extend: {},
     },
-    plugins: [require("daisyui"), require("tailwindcss-plugins/pagination")],
+    plugins: [require("daisyui")],
     daisyui: {
         themes: ["cupcake", "dark", "synthwave"],
     },
