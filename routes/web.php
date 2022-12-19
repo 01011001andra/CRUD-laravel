@@ -11,3 +11,6 @@ Route::get('/dashboard', function () {
 });
 // Route::resource('/data', databarangController::class);
 Route::get('/data', [databarangController::class, "index"]);
+Route::get('/data/create', [databarangController::class, "create"]);
+Route::get('/data/{id}/edit', [databarangController::class, "edit"]);
+Route::get('/data/{id}', [databarangController::class, "destroy"]);
