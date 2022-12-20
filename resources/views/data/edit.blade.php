@@ -12,7 +12,7 @@
   <div class="drawer">
     <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content flex flex-col bg-base-200">
-      <div class="max-w-7xl w-full mx-auto">
+      <div class="max-w-7xl w-full mx-auto px-10">
         <!-- Form -->
         <div class="container h-full py-5">
           {{-- @if($errors->any())
