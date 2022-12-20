@@ -16,7 +16,7 @@
         <div class="drawer-content flex flex-col items-center justify-center">
             <div class="w-full mx-auto pt-12">
                 <!-- Navbar -->
-                <div class="w-full navbar bg-base-200 pt-10">
+                <div class="w-full navbar bg-base-200 pt-20">
                   <div class="flex-none lg:hidden">
                       <label for="my-drawer-2" class="btn bg-inherit rounded-none border-none drawer-button lg:hidden w-20"> <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg></label>
                   </div>
