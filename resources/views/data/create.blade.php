@@ -36,7 +36,7 @@
 
             <div class="flex flex-col gap-3">
               <label for="kode" class="font-serif text-lg">Kode :</label>
-              <input type="text" name="kode" id="kode" placeholder="Type here" class="input w-full" required/>
+              <input type="number" name="kode" id="kode" placeholder="Type here" class="input w-full" required/>
             </div>
             
             <div class="flex flex-col gap-3">
@@ -45,7 +45,7 @@
             </div>
             <div class="flex flex-col gap-3">
               <label for="stock" class="font-serif text-lg">Stock :</label>
-              <input type="text" name="stock" id="stock" placeholder="Type here" class="input w-full" required/>
+              <input type="number" name="stock" id="stock" placeholder="Type here" class="input w-full" required/>
             </div>
            
             <div class="flex flex-row gap-3 justify-end">
