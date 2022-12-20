@@ -90,9 +90,9 @@
                               <td>
                                     <div class="flex gap-3">
                                         <div class="flex justify-end">
-                                            <a href={{url("data/".$item->kode."/edit")}} class="btn btn-primary text-white">EDIT</a>
+                                            <a href="/datas/{{$item->id}}/edit" class="btn btn-primary text-white">EDIT</a>
                                         </div>
-                                        <form onsubmit="return confirm('Anda Yakin Akan Menghapus <?php echo $item->nama ?>')" action="{{ url("data/".$item->kode) }}" method="post">
+                                        <form onsubmit="return confirm('Anda Yakin Akan Menghapus <?php echo $item->nama_barang ?>')" action="datas/{{$item->id}}" method="post">
                                             @csrf
                                             @method("DELETE")
                                             <button type="submit" name="submit" class="btn bg-red-500 text-white">DELETE</button>
@@ -107,10 +107,10 @@
                     </table>
                     
                 </div>
-{{--                 
+                
                 <div class="flex justify-end">
                     {{ $data->links('pagination::tailwind') }}
-                </div> --}}
+                </div>
             </div>
          
             
@@ -128,7 +128,7 @@
               </div>
             <!-- Sidebar content here -->
             <li class="font-medium"><a href="/dashboard">Dashboard</a></li>
-            <li class="font-medium bg-gray-200/80"><a href="/data">Tambah Data</a></li>
+            <li class="font-medium bg-gray-200/80"><a href="#">Tambah Data</a></li>
           </ul>
         
         </div>

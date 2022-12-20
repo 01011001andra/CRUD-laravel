@@ -31,21 +31,21 @@
             @csrf
             <div class="flex flex-col gap-3">
               <label for="nama_barang" class="font-serif text-lg">Nama Barang :</label>
-              <input type="text" name="nama_barang" id="nama_barang" placeholder="Type here" class="input w-full" />
+              <input type="text" name="nama_barang" id="nama_barang" placeholder="Type here" class="input w-full" required/>
             </div>
 
             <div class="flex flex-col gap-3">
               <label for="kode" class="font-serif text-lg">Kode :</label>
-              <input type="text" name="kode" id="kode" placeholder="Type here" class="input w-full" />
+              <input type="text" name="kode" id="kode" placeholder="Type here" class="input w-full" required/>
             </div>
             
             <div class="flex flex-col gap-3">
               <label for="jenis" class="font-serif text-lg">Jenis :</label>
-              <input type="text" name="jenis" id="jenis" placeholder="Type here" class="input w-full" />
+              <input type="text" name="jenis" id="jenis" placeholder="Type here" class="input w-full" required/>
             </div>
             <div class="flex flex-col gap-3">
               <label for="stock" class="font-serif text-lg">Stock :</label>
-              <input type="text" name="stock" id="stock" placeholder="Type here" class="input w-full" />
+              <input type="text" name="stock" id="stock" placeholder="Type here" class="input w-full" required/>
             </div>
            
             <div class="flex flex-row gap-3 justify-end">

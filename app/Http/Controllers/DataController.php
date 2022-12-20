@@ -9,7 +9,7 @@ class DataController extends Controller
 {
     public function index()
     {
-        $data = data::all();
+        $data = data::orderBy("id")->paginate(5);
         return view("data.index", compact(["data"]));
     }
     public function create()
@@ -20,5 +20,22 @@ class DataController extends Controller
     {
         data::create($request->except("_token"));
         return redirect("/datas");
+    }
+    public function edit($id)
+    {
+        $data = data::find($id);
+        return view('data.edit', compact(["data"]));
+    }
+    public function update($id, Request $request)
+    {
+        $data = data::find($id);
+        $data->update($request->except("_token"));
+        return redirect("/datas");
+    }
+    public function destroy($id)
+    {
+        $data = data::find($id);
+        $data->delete();
+        return redirect("datas");
     }
 }
