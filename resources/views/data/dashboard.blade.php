@@ -47,19 +47,23 @@
             </div>
           <!-- Page content here -->
           <div class="w-full h-max bg-base-200 px-10">
-              <div class="mx-auto min-h-screen max-w-7xl flex flex-wrap justify-between">
-                <a href="/datas" class="w-1/2 h-48 bg-white rounded-xl flex flex-row items-center justify-center gap-5 cursor-pointer hover:bg-slate-200">
-                  <h1 class="font-bold text-3xl px-10">Logo</h1>
-                  <div class="w-full h-full flex items-center">
-                    <h1 class="font-medium text-2xl">Data Barang</h1>
-                  </div>
-                </a>
-              </div>
+            <div class="mx-auto min-h-screen max-w-7xl flex flex-col py-5 gap-8">
+              <h1 class="text-5xl font-bold">Dashboard</h1>
+            <div class="flex flex-wrap gap-7">
+              <a href="/datas" class="max-w-xl w-full h-48 bg-[#f6f6f6] rounded-xl flex flex-row items-center justify-center cursor-pointer hover:bg-slate-200">
+                <img src="https://simg.nicepng.com/png/small/121-1212173_warehouse-inven-warehouse-inventory-svg-png-icon-inventory.png" alt="test" width="70" class="mx-10">
+                <div class="w-full h-full flex items-center">
+                  <h1 class="font-medium text-2xl">Data Barang</h1>
+                </div>
+              </a>  
+             
+            </div>  
+            </div>
           </div>
         </div> 
         <div class="drawer-side">
           <label for="my-drawer-2" class="drawer-overlay"></label> 
-          <ul class="menu p-4 w-80 bg-base-100 text-base-content">
+          <ul class="menu p-4 w-64 bg-base-100 text-base-content">
             <h1 class="text-2xl font-bold px-4 first-letter:text-yellow-500">Inventory BaaBaa Kambing</h1>
             {{-- Avatar --}}
             <div class="avatar flex flex-col items-center justify-center py-12">

@@ -11,9 +11,9 @@
 </head>
 
 <body class="overflow-x-hidden">
-  <div class="w-screen h-screen p-20 flex flex-col items-center justify-center">
+  <div class="w-screen h-screen p-5 flex flex-col items-center justify-center">
     <div class="container mx-auto flex flex-col items-center justify-center gap-10">
-      <div class="flex flex-col max-w-sm w-full p-6 rounded-md sm:p-10 bg-slate-100 text-black shadow-2xl ">
+      <div class="flex flex-col max-w-xl w-full p-6 rounded-md sm:p-10 bg-slate-100 text-black shadow-2xl ">
         <div class="mb-8 text-center">
           <h1 class="my-3 text-4xl font-bold">Sign in</h1>
           <p class="text-sm dark:text-gray-400">Sign in to access your account</p>

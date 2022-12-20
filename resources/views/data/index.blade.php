@@ -48,17 +48,7 @@
           <!-- Page content here -->
           <div class="w-full h-max bg-base-200 px-10">
               <div class="mx-auto min-h-screen max-w-7xl flex flex-col gap-4 py-5">
-                  @if (Session::has("success"))
-                <div class="pt-3">
-                    <div class="alert alert-success shadow-lg rounded-none">
-                        <span class="font-bold">
-                            {{Session::get("success")}}
-                        </span>
-                      </div>
-                </div>
-                    
-                @endif
-                <h1 class="text-center text-5xl font-bold">Data Barang</h1>
+                <h1 class="text-5xl font-bold">Data Barang</h1>
                 <div class="flex justify-end">
                     <a href="/datas/create" class="btn btn-accent">Tambah Data +</a>
                 </div>
