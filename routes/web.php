@@ -13,3 +13,5 @@ Route::get('/dashboard', function () {
 Route::resource('/data', databarangController::class);
 
 Route::get("/datas", [DataController::class, "index"]);
+Route::get("/datas/create", [DataController::class, "create"]);
+Route::post("/datas/store", [DataController::class, "store"]);

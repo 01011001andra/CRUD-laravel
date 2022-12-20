@@ -12,4 +12,13 @@ class DataController extends Controller
         $data = data::all();
         return view("data.index", compact(["data"]));
     }
+    public function create()
+    {
+        return view('data.create');
+    }
+    public function store(Request $request)
+    {
+        data::create($request->except("_token"));
+        return redirect("/datas");
+    }
 }

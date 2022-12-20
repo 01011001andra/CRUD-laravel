@@ -9,4 +9,6 @@ class data extends Model
 {
     use HasFactory;
     protected $table = "data";
+    // protected $fillable = ['nama_barang','jenis'..]
+    protected $guarded = [];
 }

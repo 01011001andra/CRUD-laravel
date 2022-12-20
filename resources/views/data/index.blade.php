@@ -61,7 +61,7 @@
                 @endif
                 <h1 class="text-center text-5xl font-bold">Data Barang</h1>
                 <div class="flex justify-end">
-                    <a href="/data/create" class="btn btn-accent">Tambah Data +</a>
+                    <a href="/datas/create" class="btn btn-accent">Tambah Data +</a>
                 </div>
                 <div class="overflow-x-auto">
                     <table class="table w-full">
