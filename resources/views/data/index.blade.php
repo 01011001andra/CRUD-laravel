@@ -64,10 +64,11 @@
                         </thead>
                         <tbody>
                             <!-- row 1 -->
+                            <?php $i = $data->firstItem() ?>
                             @foreach ($data as $item)
                             <tr>
                               <td></td>
-                              <td>{{$item->id}}</td>
+                              <td>{{$i}}</td>
                               <td>{{$item->nama_barang}}</td>
                               <td>{{$item->kode}}</td>
                               <td>{{$item->jenis}}</td>
@@ -85,6 +86,7 @@
                                     </div>
                                 </td>
                             </tr>
+                            <?php $i++ ?>
                             @endforeach
                           
                         </tbody>
