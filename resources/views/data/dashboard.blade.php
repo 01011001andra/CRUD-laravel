@@ -59,7 +59,7 @@
         </div> 
         <div class="drawer-side">
           <label for="my-drawer-2" class="drawer-overlay"></label> 
-          <ul class="menu p-4 w-64 bg-base-100 text-base-content">
+          <ul class="menu p-4 w-64 lg:w-80 bg-base-100 text-base-content">
             <h1 class="text-2xl font-bold px-4 first-letter:text-yellow-500">Inventory BaaBaa Kambing</h1>
             {{-- Avatar --}}
             <div class="avatar flex flex-col items-center justify-center py-12">
