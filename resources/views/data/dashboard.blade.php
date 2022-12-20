@@ -21,7 +21,6 @@
                       <label for="my-drawer-2" class="btn bg-inherit rounded-none border-none drawer-button lg:hidden w-20"> <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg></label>
                   </div>
                     <div class="flex-1">
-                        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
                       </div>
                       <div class="flex-none gap-2">
                         <div class="form-control">
@@ -48,8 +47,13 @@
             </div>
           <!-- Page content here -->
           <div class="w-full h-max bg-base-200 px-10">
-              <div class="mx-auto min-h-screen max-w-7xl flex flex-col gap-4 py-5">
-                
+              <div class="mx-auto min-h-screen max-w-7xl flex flex-wrap justify-between">
+                <a href="/datas" class="w-1/2 h-48 bg-white rounded-xl flex flex-row items-center justify-center gap-5 cursor-pointer hover:bg-slate-200">
+                  <h1 class="font-bold text-3xl px-10">Logo</h1>
+                  <div class="w-full h-full flex items-center">
+                    <h1 class="font-medium text-2xl">Data Barang</h1>
+                  </div>
+                </a>
               </div>
           </div>
         </div> 
@@ -64,8 +68,8 @@
                 </div>
               </div>
             <!-- Sidebar content here -->
-            <li class="font-medium bg-gray-200/80"><a href="#">Dashboard</a></li>
-            <li class="font-medium"><a href="/datas">Tambah Data</a></li>
+            <li class="font-medium bg-gray-200/80 rounded-full"><a href="#">Dashboard</a></li>
+            <li class="font-medium"><a href="/datas">Data Barang</a></li>
           </ul>
         
         </div>

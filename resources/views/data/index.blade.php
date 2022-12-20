@@ -21,7 +21,6 @@
                       <label for="my-drawer-2" class="btn bg-inherit rounded-none border-none drawer-button lg:hidden w-20"> <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg></label>
                   </div>
                     <div class="flex-1">
-                        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
                       </div>
                       <div class="flex-none gap-2">
                         <div class="form-control">
@@ -128,7 +127,7 @@
               </div>
             <!-- Sidebar content here -->
             <li class="font-medium"><a href="/dashboard">Dashboard</a></li>
-            <li class="font-medium bg-gray-200/80"><a href="#">Tambah Data</a></li>
+            <li class="font-medium bg-gray-200/80 rounded-full"><a href="#">Data Barang</a></li>
           </ul>
         
         </div>
