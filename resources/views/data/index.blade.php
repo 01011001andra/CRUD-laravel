@@ -14,12 +14,10 @@
     <div class="drawer drawer-mobile">
         <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content flex flex-col items-center justify-center">
-           
           <!-- Page content here -->
-          <div class="w-full h-max bg-base-200 px-10">
-            <div class="w-full mx-auto pt-12">
+          <div class="w-full h-max bg-base-200">
               <!-- Navbar -->
-              <div class="w-full navbar bg-base-200 pt-10">
+              <div class="w-full navbar bg-base-200 pt-20 mt-5 lg:mt-0">
                 <div class="flex-none lg:hidden">
                     <label for="my-drawer-2" class="btn bg-inherit rounded-none border-none drawer-button lg:hidden w-20"> <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg></label>
                 </div>
@@ -42,8 +40,7 @@
                       </div>
                </div>
               </div>
-          </div>
-              <div class="mx-auto min-h-screen max-w-7xl flex flex-col gap-4 py-5">
+              <div class="mx-auto min-h-screen max-w-7xl flex flex-col gap-4 py-5 px-10">
                 <h1 class="text-5xl font-bold">Data Barang</h1>
                 <div class="flex justify-end">
                     <a href="/datas/create" class="btn btn-accent">Tambah Data +</a>
@@ -99,8 +96,6 @@
                     {{ $data->links('pagination::tailwind') }}
                 </div>
             </div>
-         
-            
         </div>
         </div> 
         <div class="drawer-side">

@@ -15,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
   return view('data/welcome');
 });
+Route::get('/forgotpass', function () {
+  return view('data/forgotpassword');
+});
 Route::get("/datas", [DataController::class, "index"]);
 Route::get('/dashboard', function () {
   return view('data/dashboard');
